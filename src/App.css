@@ -1,5 +1,47 @@
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url('/src/font/Gilroy-Bold.ttf');
+  }
+
+@font-face {
+    font-family: "Gilroy Heavy";
+    src: url('/src/font/Gilroy-Heavy.ttf');
+    }
+@font-face {
+      font-family: "Gilroy Light";
+      src: url('/src/font/Gilroy-Light.ttf');
+      }
+@font-face {
+        font-family: "Gilroy Medium";
+        src: url('/src/font/Gilroy-Medium.ttf');
+        }
+@font-face {
+          font-family: "Gilroy Regular";
+          src: url('/src/font/Gilroy-Regular.ttf');
+          }
+
 .App {
+  background-color: #000723;
+  font-family: 'Gilroy Medium';
+  left: 0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.padding{
+  padding: 0 5%;
+}
+
+.App-footer {
+  background-color: white;
   text-align: center;
+  align-items: center;
+  height: 80%;
+  position: absolute;
+  left: 0;
+  right:0;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +77,485 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  margin-left: 56px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 0;
+  background-color: none;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .card {
+    width: 15rem;
+    margin-left: 50px;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+  .card {
+    width: 30rem;
+    margin-left: 50px;
+    border: none;
+  }
+}
+
+.card-body{
+  margin-top: -10px;
+  border: none;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .card-body {
+    margin-top: -10px;
+    border: none;
+    width: 106%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .card-body {
+    margin-top: -10px;
+    border: none;
+    width: 106%;
+  }
+}
+
+
+.card-text{
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 38px;
+  height: 380px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .card-text{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    height: 330px;
+  }
+}
+
+.card-title{
+  padding-top: 40px;
+  font-size: 36px;
+  font-weight: 600;
+  
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .sub-title {
+    font-size: 24px;
+    color: white;
+    padding-top: 3% 0 5% 0;
+    line-height: 43px;
+  }
+}
+
+.dot-text{
+  color: #D3D3D3;
+  margin: -5% 0% 0% 2%;
+  font-size: 36px;
+}
+.dot-text2{
+  color: #D3D3D3;
+  margin: -5% 0% 0% 4%;
+  font-size: 36px;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .dot-text2{
+    color: #D3D3D3;
+    margin: 5% 0% 0% 4%;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .persona{
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .fix{
+    margin-left: -2%;
+    font-size: 20px;
+  }
+}
+
+.flow{
+  margin-top: -5%;
+  font-size: 38px;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .flow{
+    display: none;
+  }
+}
+
+.client{
+   text-align: left;
+   margin-top: 3%;
+   line-height: 39.96px;
+ }
+
+@media only screen and (max-width: 823px) and (min-width: 411px) {
+  .client{
+   align-items: center;
+   margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .note{
+  margin-top: 15%;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .dot-text{
+    color: #D3D3D3;
+    padding-top: 5%;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .tools{
+    margin-left: -3%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  img {
+       width: 300px;
+       height: 100%;
+       align-items: center;
+       text-align: center;
+       margin-left: 5%;
+       justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .ques {
+      margin: auto;
+      align-items: center;
+      text-align: center;
+  }
+}
+.title{
+  padding: 5% 0 6% 0;
+  font-size: 64px;
+  font-weight: 500;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .title{
+    margin: 10% 0% 10% 0%;
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+  }
+}
+.sub-title {
+  font-size: 24px;
+  color: white;
+  padding: 3% 0% 0% 5%;
+  line-height: 43px;
+}
+.card-body{
+  background-color: #0A102C;
+  color: white;
+  background-color: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.about{
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  padding-top: 5%;
+}
+.graph{
+  font-weight: 700;
+   font-size: 48px;
+   color: #FDAE24;
+    margin-left: 40%;
+    margin-top: 14px;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .graph{
+    font-weight: 700;
+     font-size: 48px;
+     color: #FDAE24;
+      margin-left: 30%;
+      margin-top: 14px;
+  }
+}
+
+.edit{
+  margin-left: 30%;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .edit{
+  display: none;
+
+  }
+}
+
+.contact{
+  margin-top: -20%;
+  margin-left: 10%;
+  }
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .contact{
+    margin-top: 10%;
+    margin-left: 10%;
+
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .contact{
+    margin-top: -15%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .edit{
+   margin-left: 0
+  }
+}
+
+.edit2{
+ margin-top: -30%;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .edit2{
+    margin-top: 130%;
+   margin-left: 5%;
+  }
+}
+
+.above{
+  font-size: 64px;
+  font-weight: 500;
+  color: #D3D3D3;
+}
+
+.great{
+  color: #D3D3D3;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5% 0px 0% 10%;
+}
+.style{
+  color: #FDAE24;
+  margin: 1% 10% 1% 2%;
+  padding-bottom: 3%;
+}
+
+.mobile {
+  color: #D3D3D3;
+  font-size: 18px;
+  font-weight: 400;
+  margin: -3.5% 2% 2% 13%;
+}
+
+.pay {
+  font-weight: 700;
+  font-size: 48px;
+  color: #09CF83;
+  margin-left: 30%;
+   margin-top: 14px;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .pay {
+    font-weight: 700;
+    font-size: 45px;
+    color: #09CF83;
+    margin-left: 30%;
+     margin-top: 14px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .mobile{
+    color: #D3D3D3;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 3% 2% 2% 9%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .style{
+    color: #FDAE24;
+    font-size: 18px;
+    margin: 7% 10% 1% 10%;
+  }
+}
+
+.highlight{
+  font-size: 64px;
+  font-weight: 500;
+  color: white;
+  padding: 109px 0px 0px 94px;
+}
+.challange {
+  color: black;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43.68px;
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .challange {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 43.68px;
+    width: 100%;
+}}
+
+.first {
+  font-size: 48px;
+   color: #263238;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .first {
+    font-size: 48px;
+    margin: auto;
+     color: #263238;
+  }}
+
+  
+.about-text{
+  font-size: 24px;
+  font-weight: 400;
+  color: #D3D3D3;
+  line-height: 47.04px;
+}
+
+.brief{
+  font-size: 24px;
+  font-weight: 400;
+  color: #D3D3D3;
+  padding-top: 10%;
+}
+
+.scope{
+  font-size: 24px;
+  font-weight: 400;
+  color: #D3D3D3;
+  padding: 7% 0% 0% 5%;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .scope{
+    font-size: 24px;
+    font-weight: 400;
+    color: #D3D3D3;
+    padding: 7% 0% 0% 8%;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+ .scope{
+    font-size: 20px;
+    font-weight: 400;
+    color: #D3D3D3;
+    padding: 7% 0% 0% 8%;
+  }
+}
+
+.scope2{
+  font-size: 20px;
+  font-weight: 400;
+  color: #D3D3D3;
+  padding: 20px 0px 0px 0px;
+}
+
+
+.about-martins{
+  font-size: 24px;
+  font-weight: 500;
+  color: #D3D3D3;
+  padding: 0% 0 0 5%;
+  line-height: 39.72px;
+}
+
+.about-martin3{
+  font-size: 36px;
+  font-weight: 500;
+  color: #D3D3D3;
+  padding: 5% 0 3% 8%;
+  line-height: 39.72px;
+}
+
+
+.about-martins2{
+  font-size: 24px;
+  font-weight: 500;
+  color: #D3D3D3;
+  padding-top: 10px;
+  line-height: 39.72px;
+}
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .about-martins2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #D3D3D3;
+    padding-top: 10px;
+    line-height: 39.72px;
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .about-martins{
+    font-size: 24px;
+    font-weight: 500;
+    color: #D3D3D3;
+    padding-top: 10px;
+    line-height: 39.72px;
+    margin-left: -3%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+  .wireframe{
+    font-size: 24px;
+    font-weight: 500;
+    color: #D3D3D3;
+    padding-top: 10px;
+    line-height: 39.72px;
+    margin-left: -10%;
+  }
+}
+
+.wireframe{
+  font-size: 24px;
+  font-weight: 500;
+  color: #D3D3D3;
+  padding-top: 10px;
+  line-height: 39.72px;
 }
