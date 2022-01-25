@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Name, Text,  StyledDot, Title, SubText, StyledFlowChart, StyledCaseButton, StyledAnimation2, StyledAnimation } from '../adashi/style';
+import { Name, Text,  StyledDot, Title, SubText, StyledFlowChart, StyledCaseButton } from '../adashi/style';
 import * as ReactBootStrap from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
 import { CardWrapper, FooterContainer, FooterText, FooterTitle, FooterWrapper, StyledLineSvgg} from '../../about/style';
@@ -58,10 +58,10 @@ const PayMyBills = () => {
             </Text>
             <ReactBootStrap.Row className="justify-content-md-center" style={{padding: '10% 10%',  marginLeft: '5%'}}>
                     <ReactBootStrap.Col xs lg="2" sm='2'>
-                    <ReactBootStrap.Button md="auto" style={{ border: 'none' , backgroundColor: 'rgba(9, 207, 131, 1)' ,color: 'white', fontWeight: '600', padding: '8% 28%', fontSize: '24px'}}>Website</ReactBootStrap.Button>
+                    <ReactBootStrap.Button md="auto" style={{ border: 'none' , backgroundColor: 'rgba(9, 207, 131, 1)' ,color: 'white', fontWeight: '600', padding: '8% 20%', fontSize: '24px'}}>Website</ReactBootStrap.Button>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs lg="2" sm='2'>
-                    <ReactBootStrap.Button style={{ border: 'none' , backgroundColor: 'rgba(9, 207, 131, 1)' ,color: 'white', fontWeight: '600', padding: '8% 28%', fontSize: '24px'}}>Mobile</ReactBootStrap.Button>
+                    <ReactBootStrap.Button style={{ border: 'none' , backgroundColor: 'rgba(9, 207, 131, 1)' ,color: 'white', fontWeight: '600', marginLeft: '5%', padding: '8% 20%', fontSize: '24px'}}>Mobile</ReactBootStrap.Button>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
            </Container>

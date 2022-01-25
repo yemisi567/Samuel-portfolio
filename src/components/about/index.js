@@ -8,7 +8,6 @@ import {
         RightText,
         AssistTitle,
         CardWrapper, 
-        StyledIcon,
         Tools,
         StyledSpinner,
         StyledLineSvgg,
@@ -18,7 +17,6 @@ import {
         FooterTitle,
         FooterText,
         FooterWrapper,
-        StyledTools
 } from './style';
 import   AboutLine  from './assets/about-line.png';
 import   ProductDesign  from './assets/product-design.png';

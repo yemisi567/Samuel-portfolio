@@ -525,42 +525,42 @@ const AtmSolution = () => {
                                        </ReactBootStrap.Col>
                                </ReactBootStrap.Row>
                           <FidelityImageWrapper>
-                          <ReactBootStrap.Row>
+                          <ReactBootStrap.Row style={{paddingBottom: '5%'}}>
                                     <ReactBootStrap.Col >
-                                       <img src={Fidelity} alt='' width='80%' height='90%'/>
+                                       <img src={Fidelity} alt='' width='80%' height='100%' style={{paddingBottom: '5%'}}/>
                                     </ReactBootStrap.Col>
                                     <ReactBootStrap.Col>
-                                    <img src={Fidelity2} alt='' width='80%' height='90%'/>
+                                    <img src={Fidelity2} alt='' width='80%' height='100%'/>
                                     </ReactBootStrap.Col>
                             </ReactBootStrap.Row>
                           </FidelityImageWrapper>
                             <FidelityImageWrapper>
                             <ReactBootStrap.Row>
                                     <ReactBootStrap.Col >
-                                       <img src={Fidelity3} alt='' width='80%' height='90%'/>
+                                       <img src={Fidelity3} alt='' width='100%' height='100%' style={{paddingBottom: '5%'}}/>
                                     </ReactBootStrap.Col>
                                     <ReactBootStrap.Col>
-                                    <img src={Fidelity4} alt='' width='80%' height='90%' />
+                                    <img src={Fidelity4} alt='' width='80%' height='100%' />
                                     </ReactBootStrap.Col>
                             </ReactBootStrap.Row>
                             </FidelityImageWrapper>
                            <FidelityImageWrapper>
                            <ReactBootStrap.Row>
                                     <ReactBootStrap.Col >
-                                       <img src={Fidelity5} alt='' width='80%' height='90%'/>
+                                       <img src={Fidelity5} alt='' width='80%' height='100%' style={{paddingBottom: '5%'}}/>
                                     </ReactBootStrap.Col>
                                     <ReactBootStrap.Col>
-                                    <img src={Fidelity7} alt='' width='80%' height='90%' />
+                                    <img src={Fidelity7} alt='' width='80%' height='100%' />
                                     </ReactBootStrap.Col>
                             </ReactBootStrap.Row>
                            </FidelityImageWrapper>
                            <FidelityImageWrapper>
                            <ReactBootStrap.Row>
                                     <ReactBootStrap.Col >
-                                       <img src={Fidelity8} alt='' width='80%' height='90%'/>
+                                       <img src={Fidelity8} alt='' width='80%' height='100%' style={{paddingBottom: '5%'}}/>
                                     </ReactBootStrap.Col>
                                     <ReactBootStrap.Col>
-                                    <img src={Fidelity9} alt='' width='80%' height='90%' />
+                                    <img src={Fidelity9} alt='' width='80%' height='100%' />
                                     </ReactBootStrap.Col>
                             </ReactBootStrap.Row>
                            </FidelityImageWrapper>

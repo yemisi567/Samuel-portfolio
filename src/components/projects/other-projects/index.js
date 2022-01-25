@@ -34,7 +34,7 @@ import { ReactComponent as Instagram } from '../../home/assets/instagram.svg';
 import { ReactComponent as Twitter } from '../../home/assets/twitter.svg';
 import { CopyRightText, IconWrapper, StyledInstagram, StyledTwitter } from '../../home/style';
 import { FooterContainer, FooterText, FooterTitle, FooterWrapper, StyledLineSvgg } from '../../about/style';
-import { StyledAnimation3 } from '../../home/atm-solution/style';
+import { StyledAnimation3, StyledImage } from '../../home/atm-solution/style';
 
 const OtherProjects = () => {
     const navigate = useNavigate();
@@ -74,10 +74,10 @@ const OtherProjects = () => {
             </Text>
                 <ReactBootStrap.Row className="justify-content-md-center" style={{padding: '10% 10%', marginLeft: '5%'}}>
                     <ReactBootStrap.Col xs lg="2" sm='2'>
-                    <ReactBootStrap.Button variant="warning" md="auto" style={{backgroundColor: '#FDAE24',  fontSize: '18px' , border: 'none' , padding: '10% 30%', color: 'white', fontWeight: '600'}}>Website</ReactBootStrap.Button>
+                    <ReactBootStrap.Button variant="warning" md="auto" style={{backgroundColor: '#FDAE24',  fontSize: '18px' , border: 'none' , padding: '10% 26%', color: 'white', fontWeight: '600'}}>Website</ReactBootStrap.Button>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col xs lg="2" sm='2'>
-                    <ReactBootStrap.Button md="auto" style={{backgroundColor: '#FDAE24',  border: 'none' ,fontSize: '18px' , padding: '10% 30%', color: 'white', fontWeight: '600', }}>Mobile</ReactBootStrap.Button>
+                    <ReactBootStrap.Button md="auto" style={{backgroundColor: '#FDAE24',  border: 'none' ,fontSize: '18px' , padding: '10% 26%', color: 'white', fontWeight: '600', }}>Mobile</ReactBootStrap.Button>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
            </Container>
@@ -114,7 +114,9 @@ const OtherProjects = () => {
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col>
                     <img src={Second} alt='' width={'90%'} />
+                    <StyledImage>
                     <img src={Properties} alt='' width={'90%'} style={{marginTop: '8%'}}/>
+                    </StyledImage>
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
                </div>
@@ -163,7 +165,7 @@ const OtherProjects = () => {
                    </StyledAnimation2>
                     </ReactBootStrap.Container>
                       <div className='edit2'>
-                      <ReactBootStrap.Container style={{marginTop: '-30%'}}>
+                      <ReactBootStrap.Container >
                         <ReactBootStrap.Row>
                                             <div style={{fontSize: '24px',fontWeight: '400' ,color: '#D3D3D3'}}>brief</div>
                                             <ReactBootStrap.Col className='about'>
@@ -191,13 +193,13 @@ const OtherProjects = () => {
                                <div style={{marginTop: '10%'}}>
                                             <ReactBootStrap.Row>
                                                     <ReactBootStrap.Col>
-                                                <img src={Fifth} alt='' width={'90%'}/>
+                                                <img src={Fifth} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                                     </ReactBootStrap.Col>
                                                     <ReactBootStrap.Col>
-                                                    <img src={Sixth} alt='' width={'90%'}/>
+                                                    <img src={Sixth} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                                     </ReactBootStrap.Col>
                                                     <ReactBootStrap.Col>
-                                                <img src={Seventh} alt='' width={'90%'}/>
+                                                <img src={Seventh} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                                     </ReactBootStrap.Col>
                                                 </ReactBootStrap.Row>
                                             </div>
@@ -208,13 +210,13 @@ const OtherProjects = () => {
                                    <div style={{marginTop: '10%'}}>
                                                 <ReactBootStrap.Row>
                                                         <ReactBootStrap.Col>
-                                                    <img src={Eighth} alt='' width={'90%'}/>
+                                                    <img src={Eighth} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                                         </ReactBootStrap.Col>
                                                         <ReactBootStrap.Col>
-                                                        <img src={Nine} alt='' width={'90%'}/>
+                                                        <img src={Nine} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                                         </ReactBootStrap.Col>
                                                         <ReactBootStrap.Col>
-                                                    <img src={Ten} alt='' width={'90%'}/>
+                                                    <img src={Ten} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                                         </ReactBootStrap.Col>
                                                     </ReactBootStrap.Row>
                                                 </div>
@@ -224,13 +226,13 @@ const OtherProjects = () => {
                                     <div style={{marginTop: '10%'}}>
                                                 <ReactBootStrap.Row>
                                                         <ReactBootStrap.Col>
-                                                    <img src={Eleven} alt='' width={'90%'} />
+                                                    <img src={Eleven} alt='' width={'90%'} style={{paddingBottom: '5%'}} />
                                                         </ReactBootStrap.Col>
                                                         <ReactBootStrap.Col>
-                                                        <img src={Twelve} alt='' width={'90%'} />
+                                                        <img src={Twelve} alt='' width={'90%'} style={{paddingBottom: '5%'}} />
                                                         </ReactBootStrap.Col>
                                                         <ReactBootStrap.Col>
-                                                    <img src={Thirteen} alt='' width={'90%'} />
+                                                    <img src={Thirteen} alt='' width={'90%'}  style={{paddingBottom: '5%'}}/>
                                                         </ReactBootStrap.Col>
                                                     </ReactBootStrap.Row>
                                                 </div>
@@ -262,29 +264,29 @@ const OtherProjects = () => {
                                     <ReactBootStrap.Container>
                                        <ReactBootStrap.Row >
                                        <ReactBootStrap.Col>
-                                        <img src={Fourteen} alt='' width={'90%'} />
+                                        <img src={Fourteen} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                         </ReactBootStrap.Col>
                                         <ReactBootStrap.Col>
-                                        <img src={Fifteen} alt='' width={'90%'} />
+                                        <img src={Fifteen} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                         </ReactBootStrap.Col>
                                         <ReactBootStrap.Col>
-                                        <img src={Sixteen} alt='' width={'90%'} />
+                                        <img src={Sixteen} alt='' width={'90%'} style={{paddingBottom: '5%'}}/>
                                         </ReactBootStrap.Col>
                                        </ReactBootStrap.Row>
                                        <ReactBootStrap.Row style={{marginTop: '-40%'}}>
                                        <ReactBootStrap.Col>
-                                        <img src={Seventeen} alt='' width={'90%'} style={{marginTop: '15%'}}/>
+                                        <img src={Seventeen} alt='' width={'90%'} style={{marginTop: '15%', paddingBottom: '5%'}}/>
                                         </ReactBootStrap.Col>
                                         <ReactBootStrap.Col>
-                                        <img src={Eighteen} alt='' width={'90%'}  style={{marginTop: '25%'}}/>
+                                        <img src={Eighteen} alt='' width={'90%'}  style={{marginTop: '25%', paddingBottom: '5%'}}/>
                                         </ReactBootStrap.Col>
                                         <ReactBootStrap.Col>
-                                        <img src={Ninteen} alt='' width={'90%'} style={{marginTop: '25%'}}/>
+                                        <img src={Ninteen} alt='' width={'90%'} style={{marginTop: '25%', paddingBottom: '5%'}}/>
                                         </ReactBootStrap.Col>
                                        </ReactBootStrap.Row>
                                        <ReactBootStrap.Row style={{marginTop: '5%'}}>
                                            <ReactBootStrap.Col sm={4}>
-                                           <img src={Mathematics} alt='' width={'90%'} style={{marginTop: '15%'}}/>
+                                           <img src={Mathematics} alt='' width={'90%'} style={{marginTop: '15%', paddingBottom: '5%'}}/>
                                            </ReactBootStrap.Col>
                                        </ReactBootStrap.Row>
                                     </ReactBootStrap.Container>

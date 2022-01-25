@@ -1,5 +1,5 @@
 
-import styled , { keyframes }from "styled-components";
+import styled from "styled-components";
 import SolutionBg from './assets/solutionBg.png';
 import o1 from './assets/01.png';
 import o2 from './assets/02.png';
@@ -59,7 +59,6 @@ export const ViewHeading = styled.div`
     color: #FDAE24;
     align-items: center;
     text-align: left;
-
     @media only screen and (max-width: 768px) and (min-width: 200px)  {
         font-size: 36px;
         font-weight: 300;
